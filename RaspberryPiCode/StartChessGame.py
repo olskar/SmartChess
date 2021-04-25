@@ -18,7 +18,7 @@ if __name__ == '__main__':
 # initiate stockfish chess engine
 
 engine = subprocess.Popen(
-    'stockfish',
+    '/usr/games/stockfish',
     universal_newlines=True,
     stdin=subprocess.PIPE,
     stdout=subprocess.PIPE
